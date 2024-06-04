@@ -1,5 +1,4 @@
 import React from "react";
-import "../../App.css";
 import LogoHero from "../../Asset/picture 10.jpg";
 import Button from "react-bootstrap/Button";
 import { Container, Row } from "react-bootstrap";
