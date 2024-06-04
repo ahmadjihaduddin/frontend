@@ -1,11 +1,17 @@
-// import "./App.css";
+import React from "react";
+import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Navigasi from "./Components/Navbar/Navigasi";
+import "react-datepicker/dist/react-datepicker.css";
+import LandingPage from "./Page/LandingPage";
+import Login from "./Page/Login";
+import Order from "./Page/Order";
 
 function App() {
   return (
     <div className="App">
-      <Navigasi />
+      <LandingPage /> 
+      <Login />
+      <Order />
     </div>
   );
 }
